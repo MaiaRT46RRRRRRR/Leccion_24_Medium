@@ -1,0 +1,41 @@
+body{
+margin: 0;
+padding: 0;
+}
+.encabezado{
+  position: static;
+  height: 50px;
+  background-color: white;
+  display: block;
+  justify-content: center;
+}
+.contenedor {
+    height: 360px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+  }
+
+.parte1 , .parte2{
+  display: inline-block;
+}
+.logo1{
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+}
+ #ese{
+  background-color: green;
+  border: 1px solid green;
+}
+
+h1{
+   color: #fff;
+   text-align: center;
+   font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+   font-style: italic;
+}
